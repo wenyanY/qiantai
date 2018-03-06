@@ -1,8 +1,9 @@
 <template>
   <div>
     <app-header></app-header>
+      <router-view></router-view>
     <app-footer></app-footer>
-    <router-view></router-view>
+  
 
   </div>
 </template>
@@ -12,7 +13,7 @@ import Footer from "./subcom/Footer";
 export default {
  components:{
    appHeader:Header,
-   addFoter:Footer
+   appFooter:Footer
  }
 }
 </script>
