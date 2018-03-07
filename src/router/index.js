@@ -16,7 +16,7 @@ Vue.use(VueRouter)
 // 配置shop里面的子组件，类别分明比较清晰
 let goods=[
   {name:'list',path:'goods/list',component:List},
-  { name: 'deteil', path: 'goods/deteil', component: Deteil},
+  { name: 'deteil', path: 'goods/deteil/:id', component: Deteil},
 ];
 let shopcart=[
   { name: 'shopcart', path: 'shopcart', component:Shopcart}
